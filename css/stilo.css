@@ -121,7 +121,14 @@ span#hamburger::after , span#hamburger::before{
 #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
-}}
+}
+#cabeca {
+     max-width: 50px;
+     margin-bottom: 10px;
+
+}
+
+}
 
  img#slide-01  {
     display: flex;
@@ -134,7 +141,7 @@ span#hamburger::after , span#hamburger::before{
     height: 60%;
     box-shadow: 60px 60px 60px rgb(15, 12, 12);
     } 
-    #cabeca {
+    #cabeca  {
         margin-top: -55px;
         text-align: center;
         display: flex;
@@ -145,6 +152,8 @@ span#hamburger::after , span#hamburger::before{
         margin-left: auto;
         margin-right: auto;
         align-items: center;
+        
+        
     }
 
 
