@@ -1,0 +1,55 @@
+ body{
+    background-color: rgb(72, 68, 68);
+    padding:20px;
+    border: 10px 10px 10px 10px white;
+    box-sizing: 10px black;
+ }
+
+ img#slide-01  {
+    display: flex;
+    margin: 0px ;
+    margin-top: 10px;
+    margin-left: 20%;
+    width: 60%;
+    height: 400px;
+    height: 60%;
+    box-shadow: 60px 60px 60px rgb(15, 12, 12);
+    } 
+    #cabeca {
+        margin-top: -55px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+
+
+
+h1#mm {
+    box-shadow: 5px 5px 5px 5px black;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40pt;
+    text-shadow: 9px 9px 19px  black;
+
+    
+    
+}
+img#logoMm{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+
+}
+#logo-check{
+    box-shadow: 5px 5px 5px 5px black;
+    width: 150px;
+    
+    
+}
+
