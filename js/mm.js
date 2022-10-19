@@ -9,10 +9,10 @@
     //image list
     
     
-        img[0] = '../imagens-MM/mm3.jpg';
-        img[1] = '../imagens-MM/mm9.jpg';
-        img[2] = '../imagens-MM/mm10.jpg';
-        img[3] = '../imagens-MM/mm11.jpg';
+        img[0] = './imagens-MM/mm3.jpg';
+        img[1] = './imagens-MM/mm9.jpg';
+        img[2] = './imagens-MM/mm10.jpg';
+        img[3] = './imagens-MM/mm11.jpg';
     //Change image
     
     function changeimages() {
