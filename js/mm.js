@@ -1,4 +1,7 @@
-    
+ 
+
+
+
     let i = 0  //start point
     let img = []
     let time = 3000
@@ -23,6 +26,9 @@
       setTimeout("changeimages()",time)
     }
     window.onload = changeimages;
+
+
+   
     
 
     
