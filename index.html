@@ -33,25 +33,28 @@
   <nav>
     <div id="cabeca">
     <img id="logoMm" src="./imagens-MM/mm1.certo.jpg" alt="logo MM">
-    <script>
-       const btnMobile =document.getElementById('btn-mobile')
-    function toggleMenu() {
-      
-      const nav =document.getElementById('nav')
-      nav.classList.toggle('active')
-  }
-  
-     btnMobile.addEventListener('click',toggleMenu)
-  
-    </script>
+    
 
     
-<legend><h1 id="mm"><strong>Checkmat MM</strong></h1></legend>
+<legend><h1 id="mm"><strong class="mm">Checkmat MM</strong></h1></legend>
 <img id="logo-check" src="./imagens-MM/logocheckmat.jpg" alt="">
 </div>
+
+<script>
+  const btnMobile =document.getElementById('btn-mobile')
+function toggleMenu() {
+ 
+ const nav =document.getElementById('nav')
+ nav.classList.toggle('active')
+}
+
+btnMobile.addEventListener('click',toggleMenu)
+
+</script>
+<div class="slide">
 <hr>
 <img  alt="slide" id="slide-01" name="slide" width="600" height="400" >
-<hr>
+<hr></div>
 </nav>
 </section>
       

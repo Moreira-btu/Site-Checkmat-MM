@@ -51,6 +51,28 @@ header {
     padding-top: 0px;
 }
 @media (max-width: 600px){
+    #mm{
+        position: relative;
+        right: -20px;
+        bottom: -120px;
+        width: 380px; 
+    }
+    #logoMm{
+        position: relative;
+        right: -150px;
+        width: 150px;
+        height: 100px;
+        box-shadow: 9px 9px 5px ;
+        
+    }
+    #logo-check{
+        position: relative;
+        right: 190px;
+    }
+    .slide {
+        position: relative;
+        bottom: -200px;
+    }
     #btn-mobile {
         display: block;
     }
@@ -143,6 +165,7 @@ span#hamburger::after , span#hamburger::before{
     } 
     #cabeca  {
         margin-top: -55px;
+        margin-bottom: -20px;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -154,6 +177,9 @@ span#hamburger::after , span#hamburger::before{
         align-items: center;
         
         
+    }
+    .slide{
+        margin-top: -70px;
     }
 
 
