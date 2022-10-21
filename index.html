@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="shortcut icon" href="imagens-MM/favicon.ico" type="image/x-icon">
     <title>Checkmat MM</title>
-   
     <link rel="stylesheet" href="css/stilo.css">
     <script src="js/mm.js"></script>
 </head>
@@ -18,13 +17,25 @@
        <button id="btn-mobile" aria-haspopup="true" aria-controls="Menu" aria-expanded="false"aria-label="Abrir Menu" >Menu<span id="hamburger"></span></button>
        
        <ul id="menu" role="list">
-           <li><a href="/">Sobre</a></li>
-           <li><a href="/">Produtos</a></li>
-           <li><a href="/">Portifólio</a></li>
+           <li><a href="/">História</a></li>
+           <li><a href="/">Galeria</a></li>
+           <li><a href="/">Grade</a></li>
            <li><a href="/">Contato</a></li>
 
        </ul>
     </nav>
+    <script>
+      // menu respansivo mobile
+      const btnMobile =document.getElementById('btn-mobile')
+    function toggleMenu() {
+     
+     const nav =document.getElementById('nav')
+     nav.classList.toggle('active')
+    }
+    
+    btnMobile.addEventListener('click',toggleMenu)
+    
+    </script>
 
    </header>
    <section id="flex">
@@ -40,18 +51,7 @@
 <img id="logo-check" src="./imagens-MM/logocheckmat.jpg" alt="">
 </div>
 
-<script>
-  // menu respansivo mobile
-  const btnMobile =document.getElementById('btn-mobile')
-function toggleMenu() {
- 
- const nav =document.getElementById('nav')
- nav.classList.toggle('active')
-}
 
-btnMobile.addEventListener('click',toggleMenu)
-
-</script>
 <div class="slide">
 <hr>
 <img  alt="slide" id="slide-01" name="slide" width="600" height="400" >
@@ -70,7 +70,11 @@ btnMobile.addEventListener('click',toggleMenu)
    <img class="grade" src="imagens-MM/mm4.jpeg" alt="grade de horário">
 </div>
 </section>
-      
+      <div class="mundial"> 
+      <h2 class="mun">Checkmat , equipe Campeã Mundial!</h2>
+          <iframe id="campea" controls width="740" height="515" src="https://www.youtube.com/embed/--wEqkuondk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+      </div>
 
 
 
