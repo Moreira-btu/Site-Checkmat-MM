@@ -46,10 +46,7 @@ header {
 #btn-mobile {
     display: none
 }
-#flex {
-    margin-top: 0px;
-    padding-top: 0px;
-}
+
 /* style ate 600px*/
 @media (max-width: 600px){
     #mm{
