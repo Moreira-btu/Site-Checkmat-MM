@@ -1,0 +1,32 @@
+div{
+    text-align: center;
+}
+h1 {
+    color: aliceblue;
+}
+h2 {
+    background-color: aliceblue;
+    color: black;
+}
+h3 {
+    color: aliceblue;
+}
+#grade {
+    width: 1000px;
+    margin-top: auto;
+}
+@media (max-width: 1000px){
+    #grade {
+        max-width: 90vw;
+    }
+
+}
+@media (max-width: 500px){
+    #grade {
+        max-width: 90vw;
+    }
+h2 {
+    margin-top: -50px;
+    border-radius: 10px;
+}
+}

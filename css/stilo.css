@@ -48,7 +48,7 @@ header {
 }
 
 /* style ate 600px*/
-@media (max-width: 600px){
+@media (max-width: 500px){
     #mm{
         position: relative;
         right: -20px;
@@ -68,9 +68,10 @@ header {
         right: 190px;
     }
     .slide  {
+        margin-top: -200px;
         position: relative;
-        bottom: -200px;
-        padding-top: -200px;
+        bottom: -150px;
+        
     }
     .slide img {
         
@@ -153,14 +154,18 @@ span#hamburger::after , span#hamburger::before{
      margin-bottom: 10px;
 
 }
+
 .grade{
     position: relative;
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 300px;
+    max-width: 350px;
     box-shadow: 15px 15px 15px ;
     margin-bottom: -100px;
+}
+.leg-grade{
+    margin-top: 100px;
 }
 h2 {
     position: relative;
@@ -177,6 +182,22 @@ h2 {
     height: 250px;
     box-shadow: 10px 10px 10px 10px;
 }
+#video-01 iframe{
+    width:310px;
+    max-height: 200px;
+    max-width: 80vw;
+    
+
+}
+#video-01 h2 {
+    position: relative;
+    top: -30px; 
+
+}  
+#video-01 {
+    margin-top: -100px;
+}   
+     
 
 
 }
@@ -247,6 +268,9 @@ img#logoMm{
     box-shadow: 45px 45px 45px ;
 
 }
+#grade{
+    margin-top: -100px;
+}
 h2{
     color: white;
 }
@@ -261,7 +285,19 @@ h2{
     box-shadow: 10px 10px 10px 10px;
 
 }
-
+#video-01 iframe{
+    width:750px;
+     height:430px ;
+     border:none;
+     overflow:hidden;
+     box-shadow: 20px 20px 20px ;
+    
+}
+#video-01 {
+    text-align: center;
+    padding-top: 200px;
+    
+}
 
 
 

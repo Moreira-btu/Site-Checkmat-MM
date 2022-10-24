@@ -1,0 +1,28 @@
+div {
+    text-align: center;
+}
+h1 {
+    color: aliceblue;
+}
+.grau {
+    width: 900px;
+    
+    
+}
+@media (max-width: 500px){
+div h2{
+    position: relative;
+    top: -0px;
+
+}
+div img {
+    max-width: 90vw;
+}
+}
+@media (max-width: 900px){
+    .grau{
+        max-width:80vw ;  
+    }
+  
+
+}
