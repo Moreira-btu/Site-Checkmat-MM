@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História MM</title>
+    <Link rel="shortcut icon" href="imagens-MM/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/stilo.css">
+    <script src="js/mm.js"></script>
+</head>
+
+<body>
+  <header>
+    <a title="logo" href="index.html" id="Logo"><img src="imagens-MM/favicon.ico" alt=""></a>
+    <nav id="nav">
+       <button id="btn-mobile" aria-haspopup="true" aria-controls="Menu" aria-expanded="false"aria-label="Abrir Menu" >Menu<span id="hamburger"></span></button>
+       
+       <ul id="menu" role="list">
+           <li><a href="index.html">Página Principal</a></li>
+           <li><a href="historia.html">História</a></li>
+           <li><a href="galeria.html">Galeria</a></li>
+           <li><a href="/">Grade</a></li>
+           <li><a href="contato.html">Contato</a></li>
+
+       </ul>
+    </nav>
+    </header>
+    <script>
+        // menu respansivo mobile
+        const btnMobile =document.getElementById('btn-mobile')
+      function toggleMenu() {
+       
+       const nav =document.getElementById('nav')
+       nav.classList.toggle('active')
+      }
+      
+      btnMobile.addEventListener('click',toggleMenu)
+      
+      </script>
+  
+
+
+
+    
+</body>
+</html>
