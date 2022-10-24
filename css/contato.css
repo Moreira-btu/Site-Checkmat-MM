@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: white;
 }
 header {
     box-sizing: border-box;
@@ -21,6 +21,6 @@ div {
 div img {
     padding: 20px;
 }
-a{
-    background-color: aliceblue;
+#whatsApp{
+    background-color: white;
 }
