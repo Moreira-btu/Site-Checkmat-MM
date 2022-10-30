@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+#galeria-fxpreta{
+    text-align: center;
+    
+}
+picture{
+    display: flex;
+    position: absolute;
+    
+}
+#peq {
+    text-align: center; 
+}
+#peq img{
+   
+    width: 50px;
+    height: 40px;
+}
+.foto{
+    text-align: center;
+    
+}
+#fotos {
+    width: 700px;
+    height: 500px;
+}
+
+
+
+@media ( max-width:500px){
+    h2 {
+        position: relative;
+        top: 0px;
+    }
+    #fotos{
+        text-align: center;
+        max-width: 80vw;
+        height: 280px;
+    }
+
+
+}
